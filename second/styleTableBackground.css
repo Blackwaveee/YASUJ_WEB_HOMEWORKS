@@ -1,0 +1,15 @@
+td,th{
+    border: 1px solid black;
+    padding: 5px;
+    font-family: Andalus;
+}
+
+td:nth-child(even){
+    background-image: url("dark-background.png");
+    color: white;
+
+}
+td:nth-child(odd){
+    background-image: url("light-background.png");
+    color: black;
+}
